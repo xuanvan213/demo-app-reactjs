@@ -40,8 +40,7 @@ class card extends React.Component{
                     <div className="CardAge">19</div>
                     </div>
                     <div className="CardDescription">
-                    “I have studied many philosophers and many cats. The wisdom of cats is
-                    infinitely superior.”
+                        “Nữ sinh An Giang "phá đảo" mạng xã hội với tấm hình chụp trộm hơn 100.000 like, soi trang cá nhân ai cũng tiếc hùi hụi.”
                     </div>                            
                 </div>
                 {this.state.isToggleOn ? <CardInfoDetail name={User.name} avatar={User.avatar} age={User.age}/> : ''}

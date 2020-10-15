@@ -11,7 +11,7 @@ function CardInfo(props){
             {/* <img src={props.avatar} className="Avatar"/> */}
             <div className="name">
                 {props.name}
-                <span> 19 </span>
+                <span> {props.age} </span>
             </div>
             <div className="located">
                 <LocationOnIcon /> 39 kilometers away

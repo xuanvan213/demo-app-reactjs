@@ -44,9 +44,7 @@ class card extends React.Component{
                     infinitely superior.”
                     </div>                            
                 </div>
-                {this.state.isToggleOn ? <CardInfoDetail name={User.name} avatar={User.avatar} image1={User.images[1]} 
-                image2={User.images[2]} 
-                image3={User.images[3]}/> : ''}
+                {this.state.isToggleOn ? <CardInfoDetail name={User.name} avatar={User.avatar} age={User.age}/> : ''}
             </div>
     
         );

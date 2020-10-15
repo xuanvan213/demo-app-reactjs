@@ -1,0 +1,21 @@
+.card{
+    margin: 0 auto;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.241), 0 6px 20px 0 rgba(0, 0, 0, 0.241) ;
+    width: 400px;
+    height: 500px;
+    display: block;
+    background-image: url(https://kenh14cdn.com/2020/10/13/1210718477172119689095443169730447013135207n-1602580171417617895320.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.CardBody{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    text-align: left;
+    display: block;
+}

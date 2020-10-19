@@ -1,4 +1,4 @@
-.card-info{
+.Card-Info{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -7,9 +7,17 @@
     color: #000000;
     text-align: left;
     width: 100%;
+    height: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.241), 0 6px 20px 0 rgba(0, 0, 0, 0.241);
     padding: 10px;
 }
-/* .CardBody{
-    display: none;
-} */
+.Close-Icon{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-image: linear-gradient(to bottom left, #fa2b7a, #ff8064);
+    color: whitesmoke;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+}

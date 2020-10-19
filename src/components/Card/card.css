@@ -18,4 +18,19 @@
     left: 10px;
     text-align: left;
     display: block;
+    font-style: oblique;
+    font-weight: bold;
+    width: 98%;
+}
+.Icon-Info{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: rgb(101, 68, 24);
+}
+form input{
+    margin: 10px;
+}
+form {
+    display: block;
 }
